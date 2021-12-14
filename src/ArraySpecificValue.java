@@ -3,9 +3,9 @@ public class ArraySpecificValue {
     public static void main(String[]args){
 
         int array[] = {1,2,3,4,5,6,7,8,9};
-        int find = 1;
+        int find = 17;
         boolean found = false;
-        //String name = "john";// put in to track and understand the concepts
+       // String name = "john";// put in to track and understand the concepts
 // this code can be executed in below two ways- 1. by comparing 2. by for loop
 //        for(int y: array) {
 //            if (y == find) {
@@ -17,11 +17,11 @@ public class ArraySpecificValue {
         for(int y = 0; y < array.length; y++) {
             if (y == find) {
                 found = true;
-               // name = "Tamu";
+             //   name = "Tamu";
                 break;
             }
         }
-        //System.out.println(name); // false - printing to understand concept
+       // System.out.println(name); // false - printing to understand concept
         if (found) {
             System.out.print(find + " was found in an array");
         } else {
